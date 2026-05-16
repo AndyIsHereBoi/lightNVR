@@ -49,7 +49,7 @@ jobs:
           labels: |
             org.opencontainers.image.title=LightNVR
             org.opencontainers.image.description=Lightweight Network Video Recorder with go2rtc integration
-            org.opencontainers.image.vendor=OpenSensor
+            org.opencontainers.image.vendor=andyishereboi
 
       - name: Login to GHCR
         uses: docker/login-action@v4
@@ -127,7 +127,7 @@ jobs:
           labels: |
             org.opencontainers.image.title=LightNVR
             org.opencontainers.image.description=Lightweight Network Video Recorder with go2rtc integration
-            org.opencontainers.image.vendor=OpenSensor
+            org.opencontainers.image.vendor=andyishereboi
 
       - name: Create and push manifest
         run: |
