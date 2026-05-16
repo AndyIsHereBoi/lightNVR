@@ -12,8 +12,8 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: opensensor/lightnvr
-  REGISTRY_IMAGE: ghcr.io/opensensor/lightnvr
+  IMAGE_NAME: andyishereboi/lightnvr
+  REGISTRY_IMAGE: ghcr.io/andyishereboi/lightnvr
 
 
 jobs:
@@ -24,8 +24,6 @@ jobs:
       matrix:
         platform:
           - linux/amd64
-          - linux/arm64
-          - linux/arm/v7
 
     steps:
       - name: Checkout
